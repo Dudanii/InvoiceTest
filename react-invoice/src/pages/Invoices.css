@@ -1,0 +1,86 @@
+.invoice-container {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  font-family: Arial, sans-serif;
+}
+
+.invoice-title {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button.blue {
+  background-color: #2563eb;
+}
+
+.button.blue:hover {
+  background-color: #1d4ed8;
+}
+
+.button.green {
+  background-color: #16a34a;
+}
+
+.button.green:hover {
+  background-color: #15803d;
+}
+
+.invoice-form {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.invoice-form input {
+  padding: 6px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  flex-grow: 1;
+  min-width: 120px;
+}
+
+.invoice-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.invoice-table th,
+.invoice-table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+.invoice-table thead tr {
+  background-color: #f3f4f6;
+}
+
+.delete-button {
+  background: none;
+  border: none;
+  color: #dc2626;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.delete-button:hover {
+  text-decoration: underline;
+}
