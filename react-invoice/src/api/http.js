@@ -2,7 +2,7 @@
 import axios from "axios";
 
 const http = axios.create({
-  baseURL: "http://localhost:8000",
+  baseURL: "https://invoicebackend-110k.onrender.com",
 });
 
 // Automatically add Authorization and Content-Type
